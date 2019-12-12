@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vcinet", "src\vcinet\vcinet.csproj", "{D8AD2159-1C52-4764-B7F6-E57E2BAEAE42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apollo3zehn.Ixxat.Vci4.Core", "src\Apollo3zehn.Ixxat.Vci4.Core\Apollo3zehn.Ixxat.Vci4.Core.csproj", "{75FB30BF-E562-4DB6-A663-EC1F53D54A37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8AD2159-1C52-4764-B7F6-E57E2BAEAE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AD2159-1C52-4764-B7F6-E57E2BAEAE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AD2159-1C52-4764-B7F6-E57E2BAEAE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AD2159-1C52-4764-B7F6-E57E2BAEAE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FB30BF-E562-4DB6-A663-EC1F53D54A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FB30BF-E562-4DB6-A663-EC1F53D54A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FB30BF-E562-4DB6-A663-EC1F53D54A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FB30BF-E562-4DB6-A663-EC1F53D54A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB70B91C-B0E1-4553-9DFE-8363E38C3531}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<Project>
+
+  <Import Project="./build/build.props" />
+
+  <PropertyGroup>
+    <PackageLicenseExpression Condition="$(PackageLicenseExpression) == ''"></PackageLicenseExpression>
+    <PackageProjectUrl Condition="$(PackageProjectUrl) == ''">https://github.com/Apollo3zehn/Apollo3zehn.Ixxat.Vci4.Core</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
