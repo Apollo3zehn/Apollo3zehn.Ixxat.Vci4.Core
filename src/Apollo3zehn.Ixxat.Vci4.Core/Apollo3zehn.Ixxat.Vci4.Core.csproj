@@ -1,27 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Description>Contains the inofficial Ixxat Vci4 API with .NET Core optimized NuGet package layout.</Description>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\vcinet\vcinet.csproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>                     
+  </ItemGroup>
+  
+  <ItemGroup>
     <Content Include="ref/**/*.dll" Link="ref/%(RecursiveDir)%(Filename)%(Extension)">
       <PackagePath>ref/%(RecursiveDir)%(Filename)%(Extension)</PackagePath>
     </Content>
-
     <Content Include="runtimes/**/*.dll" Link="runtimes/%(RecursiveDir)%(Filename)%(Extension)">
       <PackagePath>runtimes/%(RecursiveDir)%(Filename)%(Extension)</PackagePath>
     </Content>
-    <Content Include="../vcinet/bin/Debug/**/vcinet.dll" Link="ref/%(RecursiveDir)%(Filename)%(Extension)">
+    <Content Include="$(OutputPath)../**/vcinet.dll" Link="ref/%(RecursiveDir)%(Filename)%(Extension)">
       <PackagePath>ref/%(RecursiveDir)%(Filename)%(Extension)</PackagePath>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Ixxat.Vci4.Contract">
-      <HintPath>lib\netstandard2.0\Ixxat.Vci4.Contract.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
